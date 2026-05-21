@@ -1,9 +1,9 @@
 <php>
-    <form method="post" action="search_result.php">
-        <label for="searchfield">Search:</label>
-        <input type="text" name="searchfield" required><br>
+    <form method="get" action="search_result.php">
+        <label for="model">Search:</label>
+        <input type="text" name="model" id="model" required><br>
 
-        <input type="submit" value="">
+        <input type="submit" value="Submit" >
     </form>
 </php>
     
